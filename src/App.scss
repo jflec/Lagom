@@ -1,6 +1,14 @@
-$color-blue: #333aff;
-$color-purple: #ea00c5;
-$color-pink: #ff0084;
-$color-orange: #ff7852;
-$color-yellow: #ffbf42;
+$neutral-100: #ebebeb;
+$neutral-400: #868686;
+$neutral-900: #181818;
+
+$color-blue: #3a3eba;
+$color-purple: #ba2fa6;
+$color-pink: #fb4582;
+$color-orange: #ff7f60;
+$color-yellow: #ffbd52;
 $color-bright-yellow: #f9f871;
+
+body {
+  background-color: $neutral-400;
+}
