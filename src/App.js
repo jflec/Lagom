@@ -1,18 +1,7 @@
-import './App.css';
-import './reset.css';
-import './navbar/navbar.css';
-import './body/masthead.css';
-
-import Navbar from './navbar/navbar';
-import Masthead from './body/masthead';
-
+import './App.scss';
+import './reset.scss';
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Masthead />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
