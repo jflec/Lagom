@@ -1,0 +1,21 @@
+@import '../utilities/variables';
+
+#navbar {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $neutral-100;
+  background: $blue;
+  border-radius: 10px;
+  position: sticky;
+  margin-top: 12px;
+}
+
+#navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2vw;
+  margin-right: 6vw;
+}
