@@ -23,7 +23,7 @@ body {
   width: 304px;
   height: 626px;
   background-color: $frame-color;
-  border-radius: 24px;
+  border-radius: 28px;
 }
 
 #power-button {
@@ -92,35 +92,48 @@ body {
   background-color: rgb(1, 1, 1);
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
+  display: flex;
+  align-items: center;
 }
 
 #camera {
   position: absolute;
-  bottom: 6px;
   right: 35px;
-  width: 13px;
-  height: 13px;
-  background-color: rgb(15, 15, 15);
+  width: 10px;
+  height: 10px;
+  background-color: rgb(12, 12, 12);
+  border: 1px solid rgb(20, 20, 20);
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#camera-tint-blue {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(2, 2, 2);
+  box-shadow: 0px 0px 1px 1px black;
+  border-radius: 50px;
 }
 
 #speaker {
   position: absolute;
   left: 50%;
   margin-left: -20px;
-  bottom: 9px;
   width: 40px;
-  height: 9px;
-  background-color: rgb(15, 15, 15);
+  height: 5px;
+  background-color: rgb(12, 12, 12);
   border-radius: 50px;
+  border: 1px solid rgb(20, 20, 20);
 }
 
 #screen-container {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
+  top: 8px;
+  left: 8px;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
   background-color: rgb(12, 95, 121);
   border-radius: 16px;
   background-image: url('./iphone-background.png');
@@ -144,8 +157,9 @@ body {
 }
 
 #ui-menu svg {
+  cursor: pointer;
   transition: 0.2s;
-  width: 32px;
+  width: 30px;
   background-color: rgb(255, 255, 255);
   padding: 6px;
   border-radius: 10px;
@@ -154,4 +168,24 @@ body {
 #ui-menu svg:hover {
   transition: 0.2s;
   transform: scale(1.05);
+}
+
+#ui-menu img {
+  cursor: pointer;
+  width: 30px;
+  background-color: rgb(255, 255, 255);
+  padding: 6px;
+  border-radius: 10px;
+}
+
+#ui-menu img:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+#app-container {
+  top: 50px;
+  position: absolute;
+  height: 72%;
+  width: 90%;
 }
