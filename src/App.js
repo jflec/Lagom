@@ -1,13 +1,14 @@
 import './utilities/_variables.scss';
 import './App.scss';
 import './reset.scss';
-import './navbar/navbar.scss';
-import Navbar from './navbar/navbar';
+import './splash/scene.scss';
+
+import Scene from './splash/scene';
 
 function App() {
   return (
-    <div id="grid">
-      <Navbar />
+    <div id="App">
+      <Scene />
     </div>
   );
 }
