@@ -9,13 +9,14 @@ const Scene = () => {
           <div id="volume-button-one"></div>
           <div id="volume-button-two"></div>
           <div id="volume-button-three"></div>
-          <div id="camera-bezel">
-            <div id="camera">
-              <div id="camera-tint-blue"></div>
-            </div>
-            <div id="speaker"></div>
-          </div>
+
           <div id="bezel">
+            <div id="camera-bezel">
+              <div id="camera">
+                <div id="camera-tint-blue"></div>
+              </div>
+              <div id="speaker"></div>
+            </div>
             <div id="screen-container">
               <div id="app-container"></div>
               <div id="ui-menu">

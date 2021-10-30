@@ -1,6 +1,6 @@
 @import './utilities/variables';
 
-$frame-color: rgb(199, 199, 199);
+$frame-color: rgb(196, 196, 196);
 $frame-color-shadow: rgb(187, 187, 187);
 
 body {
@@ -84,7 +84,7 @@ body {
 #camera-bezel {
   position: absolute;
   z-index: 2;
-  top: 10px;
+  top: 8px;
   left: 50%;
   width: 50%;
   height: 23px;
@@ -167,7 +167,7 @@ body {
 
 #ui-menu svg:hover {
   transition: 0.2s;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 #ui-menu img {
@@ -180,7 +180,7 @@ body {
 
 #ui-menu img:hover {
   transition: 0.2s;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 #app-container {

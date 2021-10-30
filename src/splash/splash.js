@@ -1,10 +1,12 @@
 const Splash = () => {
   return (
     <div id="splash">
-      <h1 id="splash-name">
-        Joe <br></br>
-        Felicidario
-      </h1>
+      <div id="wall">
+        <div id="door"></div>
+        <div id="molding-one"></div>
+        <div id="molding-two"></div>
+      </div>
+      <div id="floor"></div>
     </div>
   );
 };
